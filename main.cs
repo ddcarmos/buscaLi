@@ -2,7 +2,7 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    int[] elementos = new int[] {2, 3, 3, 4, 6, 8, 7, 9};
+    int[] elementos = new int[] {2, 3, 3, 4, 6, 8, 7, 9,12,16,};
     
     int pow = buscar(elementos, 14);
     Console.WriteLine ("Retorna posição " + pow);
